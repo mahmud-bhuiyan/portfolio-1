@@ -18,13 +18,12 @@ section {
     url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, left;
-  padding-top: 40px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0 200px;
+  padding: 20px 200px;
 }
 .nav-title {
   font-weight: 800;
