@@ -7,8 +7,8 @@
   color: #fd6e0a;
 }
 
-section{
-    margin-top: 130px;
+section {
+  margin-top: 130px;
 }
 
 /* header and navigation */
@@ -42,6 +42,7 @@ nav li {
 }
 
 .btn-hire-me,
+.btn-contact,
 .btn-download {
   color: #fff;
   font-size: 14px;
@@ -88,7 +89,6 @@ main {
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  
 }
 
 .section-title {
@@ -122,66 +122,109 @@ main {
 }
 
 /* what i do section */
-.what-i-do>.section-title{
+.what-i-do > .section-title {
   margin-bottom: 0;
 }
 
-.what-i-do>.section-description{
+.what-i-do > .section-description {
   margin: 30px 70px;
 }
 
-.skills-container{
-    display: flex;
-    gap: 24px;
+.skills-container {
+  display: flex;
+  gap: 24px;
 }
 
-.skill{
-    background: #fff;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
-    padding: 30px;
+.skill {
+  background: #fff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
 }
 
-.skill-title{
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.skill-description{
-    color: #757575;
+.skill-description {
+  color: #757575;
 }
 
 /* resume section */
-.resume-content{
-    display: flex;
-    gap: 24px;
-    margin-top: 70px;
+.resume-content {
+  display: flex;
+  gap: 24px;
+  margin-top: 70px;
 }
 
-.resume-item{
-    margin: 30px 0;
+.resume-item {
+  margin: 30px 0;
 }
 
-.resume-item .title{
-    color: #474747;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 10px;
+.resume-item .title {
+  color: #474747;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-.resume-item .sub-title{
-    color: #757575;
-    font-weight: 600;
-    font-size: 15px;
-    margin-bottom: 20px;
+.resume-item .sub-title {
+  color: #757575;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
-.resume-item .description{
-    color: #757575;
+.resume-item .description {
+  color: #757575;
 }
 
-.resume-btn{
-    margin-top: 50px;
-    text-align: center;
+.resume-btn {
+  margin-top: 50px;
+  text-align: center;
+}
 
+/* contact section */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+.contact .description {
+  margin-bottom: 20px;
+}
+
+input {
+  height: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.btn-send-message {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border: 0;
+  padding: 12px 20px 30px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
 }
